@@ -1,6 +1,8 @@
 body {
   text-align: center;
   background-color: rgb(255, 248, 242);
+  border-bottom: 5px solid black;
+  border-top: 5px solid black;
 }
 
 ul {
@@ -23,13 +25,6 @@ img {
   margin-top: 50px;
 }
 
-.content-select {
-  text-align: left;
-  max-width: 85%;
-  margin: 0 auto;
-  font-size: 15px;
-} 
-
 p {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 20px;
@@ -37,24 +32,50 @@ p {
   max-width: 60%;
 }
 
+u {
+  font-size: 20px;
+}
+
 h2 {
-  text-align: center;
+	text-align: left;
+	font-size: 30px;
+	padding-top: 100px;
+	padding-left: 400px;
+	padding-bottom: 25px;
+    text-decoration: underline;
+}
+
+.content-select {
+  text-align: left;
+  max-width: 85%;
+  margin: 0 auto;
+  font-size: 15px;
+  border-top: 2px solid black;
+} 
+
+.index-p {
+  text-align: left;
+  font-size: 25px;
+  padding-left: 200px;
+  padding-top: 75px;
   max-width: 75%;
   margin: 0 auto;
-  margin-bottom: 25px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .link {
   text-align: center;
+  max-width: 85%;
+  margin: 0 auto;
 }
 
 .list {
-  text-align: center;
+  text-align: left;
   margin-bottom: 90px;
   margin: 0 auto;
   max-width: 85%;
   font-family: Verdana, Geneva, sans-serif;
+  padding-left: 165px;
 }
 
 .experience {
@@ -66,24 +87,27 @@ h2 {
   max-width: 55%;
 }
 
-u {
-  font-size: 20px;
-}
-
 .experience-port {
   text-align: left;
+  font-size: 25px;
   max-width: 40%;
   margin: 5 auto;
   padding-left: 300px;
+  padding-top: 75px;
+  padding-bottom: 40px;
   text-align: justify;
   float: left;
   font-stretch: condensed;
-  font-stlye: 
+  border-bottom: 2px solid black;
 }
 
 .profile-pic {
   max-width: 400px;
-/*  float: none;*/
+  /*max-height: 500px;*/
+  padding-left: 50px;
+  /*padding-bottom: 50px;*/
+  position: relative;
+  top: -140px;
 }
 
 .name {
